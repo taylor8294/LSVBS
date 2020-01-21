@@ -1,0 +1,26 @@
+{
+  "name": "lifesight-vbs",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "parcel-bundler": "^1.12.3"
+  },
+  "scripts": {
+    "start": "parcel index.js --no-hmr --open",
+    "build": "parcel build index.js",
+    "build:dev": "set NODE_ENV=development&& parcel build index.js --no-minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "index.html",
+  "source": "index.js",
+  "engines": {
+    "browsers": "IE 11"
+  },
+  "browserslist": "IE 11"
+}

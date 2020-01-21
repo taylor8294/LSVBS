@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>LifeSight Animation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+
+<body>
+
+  <div id="banner"><img src="//greensock.com/_img/HTML5_corner_banner.png" alt="HTML5" style="position:absolute; right:-7px;" /></div>
+  <div class="panel">
+    <div id="vbsWrap">
+      <div id="vbsCanvasWrap"></div>
+      <!-- Slider -->
+      <div id="vbsCtrlSlider"></div>
+      <div id="vbsPause">pause <img id="vbsPauseIcon" src="./static/LIF/vbs/img/pause.png" width="19" height="19" />
+      </div>
+      <div id="vbsReplay">replay <img id="vbsReplayIcon" src="./static/LIF/vbs/img/replay.png" width="19" height="19" />
+      </div>
+      <img src="./static/LIF/vbs/img/spinner.gif" id="vbsLoading" />
+      <div id="vbsPlay" style="display:none">&#9654;</div>
+    </div>
+    <p id="fps" style="text-align:center">-- FPS</p>
+  </div>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+  <script src="//pixijs.download/v5.0.0-rc.3/pixi.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+  <script src="vendor/PixiPlugin.min.js"></script>
+
+  <script src="vendor/box2dweb.min.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.min.js"></script>
+  
+  <script src="index.js"></script>
+</body>
+
+</html>

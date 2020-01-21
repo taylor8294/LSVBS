@@ -1,0 +1,176 @@
+/*=====*
+ * VBS *
+ *=====*
+
+.anim-canvas-wrap {
+  position: relative;
+  padding:0;
+  padding-bottom:125%;
+  margin: 0 auto;
+}
+.anim-canvas-wrap canvas {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.anim-dimmer {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.67);
+  z-index: 98;
+}
+
+/* UI *
+.anim-loading {
+  display: block;
+  position: absolute;
+  width:25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+}
+
+.anim-play {
+  font-size: 4em;
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  cursor: pointer;
+  /* opacity:0.6; *
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: url('./static/LIF/vbs/img/play.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30%;
+  padding-bottom: 30%;
+  animation-name: pulse;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  30% { transform: scale(1); }
+  40% { transform: scale(1.1); }
+  50% { transform: scale(1); }
+  60% { transform: scale(1); }
+  70% { transform: scale(1.08); }
+  80% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+/*.anim-ctrl-slider {
+  position: absolute;
+  width: 85%;
+  width: calc(100% - 114px);
+  height: 10px;
+  left: 18px;
+  bottom: 31px;
+  background: rgba(80, 80, 80, 0.3);
+  border: 1px solid rgba(102, 102, 102, 0.5);
+  opacity: 0;
+  transition: opacity 0.1s linear;
+}
+
+#.anim-ctrl-slider:hover {
+  opacity: 1
+}*
+
+.anim-pause {
+  position: absolute;
+  right: -27px;
+  bottom: 10px;
+  cursor: pointer;
+  color: #333;
+  font-size: 12px;
+  width: 100px;
+  opacity:0;
+  transition: opacity 1s;
+}
+.anim-pause:focus {
+  opacity: 1 !important;
+}
+
+.anim-pause-icon {
+  margin-left: 2px;
+  vertical-align: middle;
+}
+
+.anim-replay {
+  position: absolute;
+  right: -27px;
+  bottom: 10px;
+  cursor: pointer;
+  color: #333;
+  font-size: 12px;
+  width: 100px;
+}
+
+.anim-replay:focus {
+  opacity: 1 !important;
+}
+
+.anim-replay-icon {
+  margin-left: 2px;
+  vertical-align: middle;
+}
+
+.anim-progress-bar {
+  position: absolute;
+  height: 10px;
+  left: 0;
+  bottom: 0;
+  width:100%;
+  opacity:0;
+  transition: opacity 1s;
+}
+.anim-progress-bar-grey {
+  width:100%;
+  background: #c2c2c2;
+  height:1px;
+  transition: height 1s;
+  position: absolute;
+  bottom: 0;
+}
+.anim-progress-bar-blue {
+  background: #009fd2;
+  height:1px;
+  transition: height 1s;
+}
+.anim-progress-bar span {
+  font-size: 7px;
+  line-height: 7px;
+  margin: 0;
+  position: absolute;
+  left: 4px;
+  color: #fff;
+  bottom: 0.5px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.anim-progress-bar:hover div {
+  height: 8px;
+}
+.anim-progress-bar:hover span {
+  opacity: 1;
+}
+.anim-wrap:hover .anim-progress-bar,
+.anim-wrap:hover .anim-pause {
+  opacity: 1;
+}
+Already included in LIVE CSS now */
